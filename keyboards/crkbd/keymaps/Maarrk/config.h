@@ -30,8 +30,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define USE_SERIAL_PD2
 
-#define TAPPING_TERM 100
+#define TAPPING_TERM 200
 #define TAPPING_TOGGLE 2
+#define ONESHOT_TIMEOUT 1000
+#define ONESHOT_TAP_TOGGLE 2
+
+#define COMBO_COUNT 12
+#define UNICODE_SELECTED_MODES UC_LNX, UC_WIN
+#define UNICODE_KEY_LNX  LCTL(LSFT(KC_U))
 
 #ifdef RGBLIGHT_ENABLE
     #undef RGBLED_NUM
