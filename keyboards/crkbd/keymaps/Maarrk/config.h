@@ -35,9 +35,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define ONESHOT_TIMEOUT 3000
 #define ONESHOT_TAP_TOGGLE 3
 
-#define COMBO_COUNT 12
-#define UNICODE_SELECTED_MODES UC_LNX, UC_WIN
-
 #ifdef RGBLIGHT_ENABLE
     #undef RGBLED_NUM
     #define RGBLIGHT_ANIMATIONS
