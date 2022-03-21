@@ -10,4 +10,4 @@ BOOTLOADER = atmel-dfu
 STENO_ENABLE = yes
 NKRO_ENABLE = yes
 
-COMBO_ENABLE = yes
+# COMBO_ENABLE = yes
